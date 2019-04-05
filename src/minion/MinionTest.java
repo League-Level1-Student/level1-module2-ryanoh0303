@@ -5,7 +5,8 @@ package minion;
  */
 
 
-import static org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -58,6 +59,8 @@ public class MinionTest {
 		stuart.setMaster("Napoleon");
 		assertEquals("Napoleon", stuart.getMaster());
 	}
+
+	
 
 }
 
